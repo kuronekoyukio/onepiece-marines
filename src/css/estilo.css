@@ -1,0 +1,47 @@
+body {
+    font-family: 'Alegreaya', sans-serif;
+    max-width: 1280;
+    margin: 0 auto;
+    background-color: aquamarine;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .oneFlag {
+    width: 100px;
+}
+
+header .logoMarine {
+    width: 200px;
+}
+
+header .kuroLogo {
+    width: 100px;
+    border: 5px;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+main { 
+
+}
+main .foto {
+    width: 300px;
+}
+
+main { 
+    
+}
+
+main { 
+    
+}
+
+main { 
+    
+}
