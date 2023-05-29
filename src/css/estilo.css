@@ -1,47 +1,79 @@
 body {
-    font-family: 'Alegreaya', sans-serif;
-    max-width: 1280;
-    margin: 0 auto;
-    background-color: aquamarine;
-    color: black;
+  font-family: "Playfair", sans-serif;
+  max-width: 1280;
+  margin: 0 auto;
+  background-color: #6895de;
+  color: black;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #8ba8d6;
+  box-shadow:  0 0 0.05rem;
 }
 
-header .oneFlag {
-    width: 100px;
+.logoMarine {
+  width: 12rem;
 }
 
-header .logoMarine {
-    width: 200px;
+.foto {
+  border: 0.1rem solid;
+  width: 17rem;
+  height: 14rem;
+  object-fit: cover;
 }
 
-header .kuroLogo {
-    width: 100px;
-    border: 5px;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
+.listaProcurados {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
 }
 
-main { 
-
+.cartaz {
+  background-image: url("../imagens/i.webp");
+  background-repeat: no-repeat;
+  background-size: 30rem 50rem;
+  width: 20rem;
+  
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2 ease-in-out;
+  gap: 1rem;
+  box-shadow:  0 0 0.6rem;
 }
-main .foto {
-    width: 300px;
+
+.procurado,
+.info {  text-transform: uppercase;
 }
 
-main { 
-    
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main { 
-    
+.procurado {
+  font-size: 3rem;
 }
 
-main { 
-    
+.Nome {
+  font-size: 2rem;  
+}
+
+.morto-vivo {
+  font-size: 1.8rem;
+  word-spacing: 2rem;
+}
+
+.recompenca {
+  font-size: 3rem;
+}
+
+.assinatura {
+  font-size: 2rem;
 }
